@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.body {
+     height: 1024px;
+}
+
+.menu {
+    background-color: #0000FF;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .menu-name {
+    color: #ffffff;
+    margin-left: 30px;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 600px;
+    height: 300px;
+
+  }
+
+.box {
+    border: 5px solid #000000;
+     }
+
+.text {
+
+    font-family: 'Helvetica';
+    text-align: center;
+    
+}
+
+.footer {
+    background-color: #0000FF;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.footer-text-left {
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+.footer-text-right {
+    color: #ffffff;
+    margin-right: 30px;
+}
+
+
+
+/* for mobiles*/
+
+@media only screen and (max-width: 390px) {
+
+.menu-name {
+    font-family: 'Helvetica';
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: bold;
+}
+.content {
+    flex-direction: column;
+}
+
+.box {
+    width: 330px;
+    height: 165px;
+    margin-bottom: 41px;
+    margin-left: 23px;
+    margin-right:22px;
+}
+
+.box:last-child {
+    margin-bottom: 20px;
+}
+
+.box:first-child {
+    margin-top: 20px;
+}
+
+.text {
+    font-family: 'Helvetica';
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.footer-text-left {
+    font-family: 'Helvetica';
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: bold;
+}
+
+.footer-text-right {
+    font-family: 'Helvetica';
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: bold;
+}
+}
+
+/*for others*/
+
+@media only screen and (min-width: 391px) {
+
+.page {
+    width: 1440px;
+    height: 1024px;
+
+}
+
+.menu-name {
+    font-family: 'Helvetica';
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    margin: 10px; 
+}
+
+.box {
+   width: 600px;
+   height: 300px;
+}
+
+.text {
+    font-family: 'Helvetica';
+    font-size: 50px;
+    line-height: 57px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.footer-text-left {
+    font-family: 'Helvetica';
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: bold;
+}
+
+.footer-text-right {
+    font-family: 'Helvetica';
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: bold;
+}
+
+}
