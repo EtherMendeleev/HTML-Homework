@@ -44,12 +44,15 @@
     display: inline;
     }
 
+.hero-block {}
 
 .hero-block-image {
     height: 950px;
     background-image: url("images/evian-origins-logo.png");
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-size: cover;
     
 }
 
