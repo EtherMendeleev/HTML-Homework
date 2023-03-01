@@ -4,22 +4,16 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 1440px;
-    height: 3359px;
-}
 
 .header-menu {
-    width: 1440px;
+    width: 100%;
     
     background-color: #FFFFFF;
     
     display: flex;
     justify-content: space-between;
     position: fixed;
-    z-index: 10;
-    
-    
+    z-index: 10;     
 }
 
 .header-text-left {
@@ -50,25 +44,16 @@ body {
     display: inline;
     }
 
-.hero-block {
-    padding-top: 140px;
-    position: relative;
-    text-align: center;
-  
-   
-}
 
 .hero-block-image {
-    position: relative;
-    z-index: 1;
+    height: 950px;
+    background-image: url("images/evian-origins-logo.png");
+    display: flex;
+    justify-content: center;
+    
 }
 
 .hero-block-title {
-    position: absolute;
-    z-index: 3;
-    top: 56.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     white-space: nowrap;
 
     font-family: 'Arial';
@@ -80,6 +65,7 @@ body {
 }
 
 .box {
+    width: 1040px;
     box-sizing: border-box;
     border: 3px solid #F8BFC7;
     border-radius: 20px;
@@ -87,18 +73,18 @@ body {
     justify-content: center;
     
     padding: 24px;
-    margin: 200px;
+    margin: 200px auto;
 
 }
 
 .box-text {
-font-family: 'Arial';
-font-size: 24px;
-line-height: 29px;
-letter-spacing: 0.05em;
+    font-family: 'Arial';
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
 
-color: #000000;
-text-align: left;
+    color: #000000;
+    text-align: left;
 }
 
 .title-paragraph {
@@ -106,8 +92,10 @@ text-align: left;
 }
 
 .images-container {
+    width: 1040px;
+    margin: 0 auto; 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .images-container-description {
@@ -143,7 +131,6 @@ text-align: left;
 }
 
 .footer-container {
-    width: 1440px;
     height: 140px;
 
     background-color: #F8BFC7;
