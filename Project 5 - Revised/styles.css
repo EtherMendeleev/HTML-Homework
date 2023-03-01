@@ -44,7 +44,9 @@
     display: inline;
     }
 
-.hero-block {}
+.hero-block {
+    margin-top: 140px;
+}
 
 .hero-block-image {
     height: 950px;
