@@ -147,7 +147,8 @@
 .content {
     display: flex;
     flex-wrap: wrap;
-    padding: 100px;
+    justify-content: center;
+    padding: 100px 0;
 }
 
 .section {
